@@ -147,7 +147,7 @@
                   img(src='@/assets/curso/temas/tema1/tema1-img-06.png', alt='Texto que describa la imagen').posicion-avatar
               p.text-small.text-center.posicion-txt-tar #[b GitLab CE: Community-Edition (gratuita).]
 
-          .col-sm-6.col-lg-4.mb-4.mb-lg-0
+          .col-sm-6.col-lg-4.mb-4.mb-lg-0.margin-top-tar
             .tarjeta--boton.color-secundario1.p-4
               .row.justify-content-center.mb-3
                 .col-7

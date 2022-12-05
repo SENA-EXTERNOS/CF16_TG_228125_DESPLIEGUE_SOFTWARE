@@ -54,6 +54,12 @@
       color:#12263F  
   .img-infografica__card
     width: 1065px
+    @media (max-width: 500px)
+      width: 373px
+      height: 245px
+      left: -66px
+      top: 10px
+    
   .tarjeta.color-acento-contenido 
     position: relative
     top: 77px
@@ -67,6 +73,17 @@
 .bloque-texto-img1-1
   width: 124%
   height: 590px
+  @media (max-width: 500px)
+    position: absolute
+    top: 0
+    left: 0
+    bottom: 0
+    width: 100% 
+    background-image: url("../assets/curso/temas/tema1/tema1-img-05-1.svg")!important
+    background-size: cover
+    background-position: 50%
+    background-repeat: no-repeat  
+    height: 250px
 
 .bloque-texto-tema1-1
   right: -316px
@@ -95,11 +112,16 @@
       i
         p
           font-size: small
+  @media (max-width: 500px)
+    right: -17px
+    top: 60px
 
-.tam-tarjeta-color    
+.tam-tarjeta-color      
   height: 615px
   @media (max-width:500px) 
-    height: 1205px             
+    margin-top:35.5rem!important
+    height: 1205px    
+    background-color: $white        
 
 .color-secundario1
   background-color: #bafff4   
@@ -112,8 +134,15 @@
   position: relative
 
 .posicion-txt-tar
-  top: -73px
-  position: relative;   
+  top: -86px
+  position: relative
+  @media (max-width: 500px)   
+    font-size: 1em
+
+.margin-top-tar
+  @media (max-width: 500px)     
+    margin-top: 3.5rem    
+
 
 //tema2
 
@@ -153,8 +182,8 @@
   width: 250px
   height: 290px
   @media (max-width:500px) 
-    width: 250px
-    height: 900px    
+    width: 305px
+    height: 280px    
 
 .crd--avatarHorizontal  
   & > *
@@ -172,6 +201,8 @@
     height: 100%
     background-color: #21CBAE
     border-radius: 20px
+    @media (max-width: 500px)
+      height: 60%
 
   @media (max-width: 1000px)
     padding-right: 2rem
@@ -180,13 +211,25 @@
   position: relative
   left: -10px
   width: 295px
+  @media (max-width: 500px)
+    left: 90px
+    width: 300px
+    top: -160px
+    padding-left: 5.5rem
 
 .posicion-texto-2
   position: relative
   top: -10px
+  @media (max-width: 500px)
+    top: -150px
+    left: 90px
+    width: 300px
+    padding-left: 5.5rem  
 
 .bloque-img-2
   width: 56%
+  @media (max-width: 500px)
+    width: 100%
 
 //tema3    
 .background-3
@@ -237,6 +280,8 @@
 
   .slyder-a__tipo-b
     top: -45px
+    @media (max-width: 500px)
+      top: 10px    
 
   .lista-ol--cuadro__vineta
     background-color: #EF3C79
@@ -249,6 +294,10 @@
   .slyder-a__bullets__item--active
     background-color: #21CBAE
     border-color: #21CBAE
+  @media (max-width: 500px)
+    height: 1290px
+
+
 @keyframes float1
   0%
     transform: translateY(20px)

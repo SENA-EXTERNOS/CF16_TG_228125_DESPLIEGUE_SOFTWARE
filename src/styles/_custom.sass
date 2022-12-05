@@ -2,15 +2,253 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 20%
+    right: -5%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 19%
+    right: 70%
 
+.banner-principal__img
+  position: relative
+  top: 48px
+  left: -33px
 
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/fondo-banner-principalt.png") !important
+.index-dos
+  position: relative
+  z-index: 2
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: $white
+
+.color-i
+  color: #12263F!important 
+
+//tema1
+
+.clr-background-1
+  position: relative
+  width: 100% 
+  background-image: url("../assets/curso/temas/tema1/tema1-img-03.svg") 
+  background-size: cover
+  background-position: left top
+  background-repeat: no-repeat   
+  height: 370px
+
+.margin-puntos 
+  top: 70px
+  position: relative
+
+.puntos-calientes-t1
+  .img-infografica.color-primario
+    .img-infografica__item
+      width: 2.5%
+    .img-infografica__item__dot:before      
+      background-color: #FECB2F
+    .img-infografica__item__dot:after
+      background-color: #FECB2F     
+    .img-infografica__item__numero
+      color:#12263F  
+  .img-infografica__card
+    width: 1065px
+  .tarjeta.color-acento-contenido 
+    position: relative
+    top: 77px
+    left: 61px    
+
+.color-i
+  li
+    i
+      color: #EF3C79!important    
+
+.bloque-texto-img1-1
+  width: 124%
+  height: 590px
+
+.bloque-texto-tema1-1
+  right: -316px
+  top: -40px
+  height: 292px
+  width: 658%
+  background-color: #0D4AAD  
+  p
+    color: $white
+    font-size: small
+  @media (max-width: 500px)  
+    right: 0
+    top: 40px
+    height: 950px
+
+.bloque-texto-tema1-2
+  right: -43px
+  top: 252px
+  width: 529%
+  background-color: #ffffff00
+  p
+    color: $black
+    font-size: small
+  ul  
+    li  
+      i
+        p
+          font-size: small
+
+.tam-tarjeta-color    
+  height: 615px
+  @media (max-width:500px) 
+    height: 1205px             
+
+.color-secundario1
+  background-color: #bafff4   
+  height: 155px
+  cursor: auto
+  width: 95%
+
+.posicion-avatar  
+  top: -79px
+  position: relative
+
+.posicion-txt-tar
+  top: -73px
+  position: relative;   
+
+//tema2
+
+.clr-paleBlue
+  background-color: #DAF7F2  
+
+.puntos-calientes-t2
+  .img-infografica.color-primario
+    .img-infografica__item
+      width: 3.5%
+    .img-infografica__item__dot:before      
+      background-color: #BFE0EF
+    .img-infografica__item__dot:after
+      background-color: #BFE0EF    
+    .img-infografica__item__numero
+      color:#12263F  
+
+.acordionA-01
+  .tarjeta--azul 
+    background-color: #78A3C6
+  .acordion__activo
+    background-color: #D8ECFF
+
+.clr-paleBlue-1
+  background-color: #DAF7F2      
+  height: 350px
+  .slyder-f__btn
+    color: #707BA3
+          
+.posicion-slyder
+  position: relative
+  top: 30px
+
+.tarjeta-avatar
+  img
+    width: 50%
+  width: 250px
+  height: 290px
+  @media (max-width:500px) 
+    width: 250px
+    height: 900px    
+
+.crd--avatarHorizontal  
+  & > *
+    position: relative
+  h5 
+    color: $black
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #21CBAE
+    border-radius: 20px
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.posicion-texto-1
+  position: relative
+  left: -10px
+  width: 295px
+
+.posicion-texto-2
+  position: relative
+  top: -10px
+
+.bloque-img-2
+  width: 56%
+
+//tema3    
+.background-3
+  position: relative
+  width: 100% 
+  left: 10px
+  top: -39px  
+  background-image: url("../assets/curso/temas/tema3/tema3-img-01.svg") 
+  background-size: cover
+  background-position: left top
+  background-repeat: no-repeat   
+
+.tabs-c__header
+  z-index: 2
+  position: relative
+
+.margin-top-tabs
+  margin-top: 1.5rem!important
+
+.tabs-c.color-primario .tabs-c__tab--active
+  border-bottom-color: #21CBAE !important 
+   
+  &::before
+    border-top-color: #21CBAE !important 
+
+.tabs-c__content-item    
+  margin-bottom: -3.5rem
+
+.cajon.color-primario 
+  background-color: #E6CBD4  
+
+.acordionA-02  
+  .tarjeta--azul 
+    background-color: #E8E8E8
+  .acordion__activo
+    background-color: #FFF5D5  
+  .acordion__accion__btn--a
+    color: #21CBAE
+
+.slyderA-01
+  position: relative
+  width: 100% 
+  background-image: url("../assets/curso/temas/tema3/tema3-img-11.svg") 
+  background-size: cover
+  background-position: left top
+  background-repeat: no-repeat 
+  height: 710px
+
+  .slyder-a__tipo-b
+    top: -45px
+
+  .lista-ol--cuadro__vineta
+    background-color: #EF3C79
+  .slyder-a__btn--sigt
+    background-color: #21CBAE
+  .slyder-a__btn--atrs
+    background-color: #21CBAE
+  .slyder-a__bullets__item
+    background-color: #96DAD7
+  .slyder-a__bullets__item--active
+    background-color: #21CBAE
+    border-color: #21CBAE
 @keyframes float1
   0%
     transform: translateY(20px)

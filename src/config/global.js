@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Despliegue de <i>software</i>',
+    descripcionCurso:
+      'Este componente formativo está diseñado para brindar los conceptos y conocimientos orientados a la implementación del <i>software</i>, donde conocerá todos los pasos y herramientas a tener en cuenta para realizar este proceso de manera correcta.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -32,30 +33,22 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Herramientas de despliegue',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Ambientes de producción o desarrollo',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Actividades, roles y tipos de despliegue',
         desarrolloContenidos: true,
       },
     ],
@@ -101,32 +94,120 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Herramientas de despliegue',
+      referencia:
+        'Païola, P. (2021). <i>Microsoft Azure : Gestione su Sistema de Información en la Nube.</i>',
+      tipo: 'Libro',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_biblioteca_eniEPT3GIT ',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Herramientas de despliegue',
+      referencia:
+        'Rojas-Albarracin, G. et al. (2017). Plataforma computacional sobre Amazon Web Services de renderizado distribuido/Computational Platform About Amazon Web Services Distributed Rendering/Plataforma de computacao sob Amazon Web Services AWS de renderizacao distribuida. <i>Revista Cientifica Del Centro De Investigaciones Y Desarrollo Cientifico De La Universidad Distral Francisco Jose De Caldas, (30)</i>.',
+      tipo: 'Artículo',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_gale_infotracmisc_A510482190',
+    },
+    {
+      tema: 'Ambientes de producción o desarrollo',
+      referencia:
+        'Sarosi, A. (2022). <i>Entorno de Desarrollo vs Producción: El proceso de publicar una App Web.</i> ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=9GaVCsPuDB4',
+    },
+    {
+      tema: 'Actividades, roles y tipos de despliegue',
+      referencia:
+        'DesarrolloWeb.com. (2020). <i>Hosting y despliegue continuo gratuito con GitHub y Netlify.</i>',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=OomyaFBGlyU',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'AZURE',
+      significado:
+        'plataforma soportada por Microsoft para el despliegue de aplicaciones informáticas.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Actualización',
+      significado:
+        'proceso que reemplaza o copia archivos nuevos en el disco duro de una computadora o servidor.',
+    },
+    {
+      termino: 'Ambiente de desarrollo',
+      significado:
+        'espacio donde se desarrolla el sistema de manera local y se realizan las pruebas iniciales del sistema.',
+    },
+    {
+      termino: 'Ambiente de producción',
+      significado:
+        'espacio donde se coloca en marcha el <i>software</i> desarrollado para que los usuarios finales puedan usarlo.',
+    },
+    {
+      termino: 'AWS',
+      significado:
+        'plataforma soportada por Amazon que presta los servicios de despliegue de aplicaciones informáticas.',
+    },
+    {
+      termino: 'Desinstalación',
+      significado:
+        'proceso de eliminar los archivos de instalación de una aplicación del disco duro de un dispositivo.',
+    },
+    {
+      termino: 'GIT',
+      significado:
+        'aplicación que permite llevar un control de código fuente de un aplicativo que se desarrolla.',
+    },
+    {
+      termino: 'Instalación',
+      significado:
+        'proceso de copiar los archivos necesarios para poner en marcha un sistema de información.',
+    },
+    {
+      termino: 'JENKINS',
+      significado:
+        'sistema para realizar el proceso de integración continua y pruebas de <i>software</i>.',
+    },
+    {
+      termino: 'Reporte',
+      significado:
+        'consulta que integra varios datos e información de un proceso y se realiza de manera organizada.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'IBM Documentación. (2022). <i>Entornos de desarrollo y producción</i>.',
+      link:
+        'https://www.ibm.com/docs/es/baw/20.x?topic=overview-case-development-production-environments',
+    },
+    {
+      referencia:
+        'Microsoft Soporte. (s.f.). <i>Access SQL: conceptos básicos, vocabulario y sintaxis</i>.',
+      link:
+        'https://support.microsoft.com/es-es/office/access-sql-conceptos-b%C3%A1sicos-vocabulario-y-sintaxis-444d0303-cde1-424e-9a74-e8dc3e460671#bm2',
+    },
+    {
+      referencia: 'NetApp. (s.f.). <i>¿Qué es DevOps?</i>',
+      link: 'https://www.netapp.com/es/devops-solutions/what-is-devops/',
+    },
+    {
+      referencia:
+        'Ortiz Clavijo, L. F.  et al. (2018). Computación En La Nube: Estudio De Herramientas Orientadas a La Industria 4.0. <i>Lampsakos</i>, (20), p. 68-75. ',
+      link:
+        'https://revistas.ucatolicaluisamigo.edu.co/index.php/lampsakos/article/view/2560',
+    },
+    {
+      referencia:
+        'Quezada Sarmiento, P. y Suárez-Guerrero, C. (2021). La Computación en la Nube en el proceso formativo en Programación Web. RISTI - Revista Iberica de Sistemas e Tecnologias de Informacao, (E42), p. 1-11.',
+      link:
+        'https://www.researchgate.net/publication/346556176_La_Computacion_en_la_Nube_en_el_proceso_formativo_en_Programacion_Web',
+    },
+    {
+      referencia: 'Turingears. (s.f.). <i>¿Qué es GitLab?</i>',
+      link: 'https://turingears.com/que-es-gitlab/',
     },
   ],
   creditos: {

@@ -12,8 +12,26 @@
 
 .banner-principal__img
   position: relative
-  top: 48px
-  left: -33px
+  top: -57px
+  width: 35%
+  left: -92px
+
+.banner-principal .tarjeta 
+  height: 438px 
+
+.banner-principal__info 
+  position: relative
+  top: -88px
+  left: 37px 
+
+.banner-principal__descripcion 
+  position: relative
+  top: 15px  
+  margin-right: 7rem
+
+.banner-principal__accion    
+  position: relative
+  top: 75px
 
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/fondo-banner-principalt.png") !important
@@ -29,6 +47,13 @@
 
 //tema1
 
+.tam-movil-img
+  @media (max-width: 500px)
+    position: relative
+    width: 60%    
+    left: 60px
+
+
 .clr-background-1
   position: relative
   width: 100% 
@@ -37,6 +62,8 @@
   background-position: left top
   background-repeat: no-repeat   
   height: 370px
+  @media (max-width: 500px)
+    height: 230px
 
 .margin-puntos 
   top: 70px
@@ -54,6 +81,7 @@
       color:#12263F  
   .img-infografica__card
     width: 1065px
+    z-index: 2
     @media (max-width: 500px)
       width: 373px
       height: 245px
@@ -67,7 +95,7 @@
 
 .color-i
   li
-    i
+    i.fas.fa-play
       color: #EF3C79!important    
 
 .bloque-texto-img1-1
@@ -119,7 +147,6 @@
 .tam-tarjeta-color      
   height: 615px
   @media (max-width:500px) 
-    margin-top:35.5rem!important
     height: 1205px    
     background-color: $white        
 
@@ -129,9 +156,12 @@
   cursor: auto
   width: 95%
 
-.posicion-avatar  
-  top: -79px
+.posicion-avatar 
   position: relative
+  top: -79px
+  @media (max-width: 500px)  
+    left: 10px
+    width: 83%
 
 .posicion-txt-tar
   top: -86px
@@ -297,6 +327,10 @@
   @media (max-width: 500px)
     height: 1290px
 
+
+
+.boton
+  background-color: #F4CE59
 
 @keyframes float1
   0%

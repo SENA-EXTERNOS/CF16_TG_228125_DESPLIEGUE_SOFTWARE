@@ -126,11 +126,19 @@
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-7
         p.mb-4 Por ejemplo, supongamos que tiene una tabla denominada Productos y otra tabla denominada Servicios. Ambas tablas tienen campos que contienen el nombre del producto o servicio, el precio, la disponibilidad de garantía del servicio o de garantía del producto, y si el producto o servicio se ofrece de forma exclusiva. Aunque en la tabla Productos se almacena información de garantía del producto y en la tabla Servicios se almacena información de garantía del servicio, la información básica es la misma (si un producto o servicio determinado incluye una garantía de calidad). Puede usar una consulta de unión, como la que se muestra a continuación, para combinar los cuatro campos de las dos tablas:
-        p.mb-0 SELECT name, price, warranty_available, exclusive_offer
-        p.mb-0 FROM Products
-        p.mb-0 UNION ALL
-        p.mb-0 SELECT name, price, guarantee_available, exclusive_offer
-        p.mb-4 FROM Services
+        ul.color-i.mb-4
+          li
+            i.fas.fa-play
+            | SELECT <i>name, price, warranty_available, exclusive_offer</i> <br/>
+            i.fas.fa-play
+            | FROM <i>Products</i> <br/> 
+            i.fas.fa-play
+            | UNION ALL <br/> 
+            i.fas.fa-play
+            | SELECT <i>name, price, guarantee_available, exclusive_offer</i> <br/> 
+            i.fas.fa-play
+            | FROM <i>Services</i>  <br/> 
+
         p Como podemos observar, las consultas nos permiten recuperar la información que se encuentra dentro de la base de datos y luego poder realizar los procedimientos requeridos por la organización.
 
       .col-lg-5

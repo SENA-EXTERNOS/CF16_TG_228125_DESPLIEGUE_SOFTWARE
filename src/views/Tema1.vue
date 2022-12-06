@@ -13,7 +13,7 @@
         .cajon.color-acento-botones.p-4.mt-4
           .row.justify-content-center.align-items-center
             .col-lg-4
-              img(src='@/assets/curso/temas/tema1/tema1-img-01.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/tema1-img-01.svg', alt='Texto que describa la imagen').tam-movil-img
             .col-lg-8
               p.mb-3 Antes de continuar, respondamos la siguiente pregunta: ¿qué es el proceso de integración continua?
               p Es una práctica habitual en desarrollo de software que consiste en integrar frecuentemente mejoras en el código de un proyecto una vez han sido validadas, normalmente varias veces al día, con el objetivo de detectar errores lo antes posible.
@@ -104,7 +104,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-img-05.svg')})`}"
       )
       .bloque-texto-g__texto.bloque-texto-tema1-1.p-3
-        p.mb-0 Continuemos hablando un poco más sobre GitLab. La ventaja principal es que facilita notablemente el desarrollo de software ágil entre varios equipos. De esta manera, varios desarrolladores pueden trabajar simultáneamente en un proyecto y editar, por ejemplo, diferentes funciones de forma paralela. La protocolización continua de todos los procesos, garantiza que no se pierda ninguna modificación del código ni que se sobreescriba de forma no intencionada. También es posible deshacer rápidamente los cambios ya aplicados, en esta nueva tendencia del agilismo, donde las metodologías de desarrollo ágil como Scum, Kanban y XP permiten la integración del usuario en los procesos de desarrollo del producto de software. Así se garantiza que el proceso de integración se realice de manera mucho más detallada y con el cliente, teniendo en cuenta que es el protagonista en el proceso de construcción del producto.
+        p.mb-0 Continuemos hablando un poco más sobre GitLab. La ventaja principal es que facilita notablemente el desarrollo de software ágil entre varios equipos. De esta manera, varios desarrolladores pueden trabajar simultáneamente en un proyecto y editar, por ejemplo, diferentes funciones de forma paralela. La protocolización continua de todos los procesos, garantiza que no se pierda ninguna modificación del código ni que se sobreescriba de forma no intencionada. También es posible deshacer rápidamente los cambios ya aplicados, en esta nueva tendencia del agilismo, donde las metodologías de desarrollo ágil como Scum, Kanban y XP permiten la integración del usuario en los procesos de desarrollo del producto de software. Así se garantiza que el proceso de integración se realice de manera mucho más detallada y con el cliente, teniendo en cuenta que es el protagonista en el proceso de construcción del producto.<br/>
       .bloque-texto-g__texto.bloque-texto-tema1-2
         p.mb-1 Entre las funciones más importantes de GitLab se encuentran las siguientes:<br/> 
         ul.color-i

@@ -90,7 +90,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7
         .cajon.color-primario.p-4.mt-4
-          p Aunque sabemos que todos los productos fabricados deben tener la manera de poder retroalimentarse para poder crecer y establecerse en un mercado específico, y comprendiendo que el software es un producto que requiere de la integración con el usuario y que mediante esa operación puedan surgir nuevas necesidades que a su vez se conviertan en requerimientos para ser incluidas en las próximas versiones del sistema, se hace necesario que se creen los mecanismos para que el usuario participe de una manera más activa en el proceso de construcción y mejora del producto, porque esto permitirá que nuestro sistema perdure por mucho más tiempo en el mercado.
+          p #[b Aunque sabemos que todos los productos fabricados deben tener la manera de poder retroalimentarse para poder crecer y establecerse en un mercado específico, y comprendiendo que el #[i software] es un producto que requiere de la integración con el usuario y que mediante esa operación puedan surgir nuevas necesidades que a su vez se conviertan en requerimientos para ser incluidas en las próximas versiones del sistema, se hace necesario que se creen los mecanismos para que el usuario participe de una manera más activa en el proceso de construcción y mejora del producto, porque esto permitirá que nuestro sistema perdure por mucho más tiempo en el mercado].
       .col-lg-5
         img(src='@/assets/curso/temas/tema3/tema3-img-09.svg', alt='Texto que describa la imagen')
 
@@ -165,7 +165,10 @@
               .col-md-6
                 figure
                   img(src='@/assets/curso/temas/tema3/tema3-img-14.svg', alt='Texto que describa la imagen')            
-
+  
+  .row.justify-content-center.align-items-center
+    .col-lg-10
+      p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 
 
 

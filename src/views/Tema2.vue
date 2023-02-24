@@ -35,10 +35,10 @@
           p También llamado entorno de #[i staging], permite trabajar en un entorno con una configuración exactamente igual a la que existe en el entorno de producción. La finalidad de usar este tipo de servidor es simular el entorno de producción, para validar su usabilidad en un entorno real. Del mismo modo, permite poder realizar pruebas de actualizaciones y minimizar las causas que puedan generar caídas del sistema.
         
         .tarjeta.color-acento-contenido.p-3(x="78.2%" y="79%" numero="4")
-          p.mb-3 Es el entorno donde finalmente se ejecuta el #[i software], el cual es utilizado por el usuario Este servidor, a diferencia del servidor de pre-producción, debería tener una mayor infraestructura y mayor capacidad de manejo de tráfico o de conexiones recurrentes.
-          p Si el entorno de producción está bien configurado y se han realizado pruebas automatizadas y por parte del usuario, no debería existir ninguna incidencia en la ejecución del #[i software] final.
+          p Es el entorno donde, finalmente, se ejecuta el <i>software</i>, el cual es utilizado por el usuario. Este servidor, a diferencia del servidor de pre-producción, debe tener una mayor infraestructura y gran capacidad de manejo de tráfico o de conexiones recurrentes.
+          p Si el entorno de producción está bien configurado y se han realizado pruebas automatizadas, por parte del usuario, no debería existir ninguna incidencia en la ejecución del <i>software</i> final.
 
-    p.mt-4 Podemos así concluir que los entornos de producción son ambientes que poseen una tecnología que permite realizar el despliegue de un aplicativo de software de una manera masiva para ser utilizado por varios usuarios al tiempo, es donde se incluyen los datos de operación y empieza a ser alimentado con datos reales y en condiciones reales de operación. Esto es algo que se debe realizar mediante la transición del entorno de desarrollo hasta llegar al entorno de producción donde el software será usado masivamente.
+    p.mt-4 Podemos concluir, entonces, que los entornos de producción son ambientes que poseen una tecnología que permite realizar el despliegue de un aplicativo de <i>software</i> de una manera masiva para ser utilizado por varios usuarios al tiempo; es donde se incluyen los datos de operación y empieza a ser alimentado con datos reales y en condiciones reales de operación. Esto es algo que se debe realizar mediante la transición del entorno de desarrollo, hasta llegar al entorno de producción, donde el <i>software</i> será usado masivamente.
     p.mt-3 A continuación, se presentan unos esquemas de esta transición.
 
     .acordionA-01
@@ -66,29 +66,30 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-7
         p.mb-2 Lo mencionado anteriormente está muy conectado con permisos de manipulación de la estructura de la base de datos, lo cual solo debe permitirse al administrador de la base de datos y por ningún motivo debe el usuario final modificar, a menos que se requiera bajo algún procedimiento a realizar.
-        p.mb-4 Hablemos ahora sobre los reportes, los cuales son estructuras que se encuentran estrechamente relacionados con la información almacenada en la base de datos del aplicativo; en otras palabras, son consultas que se realizan para obtener datos almacenados en un sistema de información con una configuración y estructura específica, esto se realiza con el propósito de obtener información ordenada y que pueda servir para la toma de decisión en una organización. Los reportes a menudo mezclan diferentes aspectos de la información de una organización, es decir, un reporte puede incluir información general, financiera, presupuestal y de recursos humanos al tiempo para tener una comprensión y datos organizados con un sentido propio.
+        p.mb-4 Hablemos ahora sobre los reportes, los cuales son estructuras que se encuentran estrechamente relacionadas con la información almacenada en la base de datos del aplicativo; en otras palabras, son consultas que se realizan para obtener datos almacenados en un sistema de información con una configuración y estructura específicas; esto se realiza con el propósito de obtener información ordenada y que pueda servir para la toma de decisión en una organización. Los reportes, a menudo mezclan diferentes aspectos de la información de una organización, es decir, un reporte puede incluir información general, financiera, presupuestal y de recursos humanos al tiempo, para tener una comprensión y datos organizados con un sentido propio.
         p Un ejemplo de ello es cuando una organización desea conocer las facturas que se han emitido en un periodo específico, cada una de estas facturas trae:
       .col-lg-5
         img(src='@/assets/curso/temas/tema2/tema2-img-06.svg', alt='Texto que describa la imagen')(data-aos="flip-left")
 
     .crd.clr-paleBlue-1.mt-5
       .row.justify-content-center.align-items-center.posicion-slyder
-        .col-lg-11        
-          SlyderF(columnas="col-lg-6 col-xl-4")
-            .tarjeta-avatar
-              img(src='@/assets/curso/temas/tema2/tema2-img-07.svg' alt='AvatarTop')
-              .tarjeta.color-secundario.p-4
-                p.text-center.mt-3 Información del cliente a quien se le realizó dicha factura.
-
-            .tarjeta-avatar
-              img(src='@/assets/curso/temas/tema2/tema2-img-08.svg' alt='AvatarTop')
-              .tarjeta.color-secundario.p-4          
-                p.text-center.mt-3 Información de los productos que se encuentran incluidos en dichas facturas.
-
-            .tarjeta-avatar
-              img(src='@/assets/curso/temas/tema2/tema2-img-09.svg' alt='AvatarTop')
-              .tarjeta.color-secundario.p-4
-                p.text-center.mt-3 Información de precios, cálculo de subtotales, impuestos y el total de la factura.
+        .col-lg-10
+          .row.justify-content-center.align-items-center.mb-5
+            .col-lg-4        
+              .tarjeta-avatar
+                img(src='@/assets/curso/temas/tema2/tema2-img-07.svg' alt='AvatarTop')
+                .tarjeta.color-secundario.p-4
+                  p.text-center.mt-3 Información del cliente a quien se le realizó dicha factura.
+            .col-lg-4  
+              .tarjeta-avatar
+                img(src='@/assets/curso/temas/tema2/tema2-img-08.svg' alt='AvatarTop')
+                .tarjeta.color-secundario.p-4          
+                  p.text-center.mt-3 Información de los productos que se encuentran incluidos en dichas facturas.
+            .col-lg-4  
+              .tarjeta-avatar
+                img(src='@/assets/curso/temas/tema2/tema2-img-09.svg' alt='AvatarTop')
+                .tarjeta.color-secundario.p-4
+                  p.text-center.mt-3 Información de precios, cálculo de subtotales, impuestos y el total de la factura.
 
     p.mt-4 A esto es a lo que se le llama reporte: la agrupación de diferente tipo de información ubicada en un mismo espacio para interpretarla de una manera más sencilla.
     p.mt-4 Además, en ciertas ocasiones no se limitan a informar sobre una determinada cuestión, sino que también establecen objetivos, elementos persuasivos (como sugerencias o consejos) o incluso la conclusión de una determinada investigación.

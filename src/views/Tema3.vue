@@ -90,7 +90,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7
         .cajon.color-primario.p-4.mt-4
-          p #[b Aunque sabemos que todos los productos fabricados deben tener la manera de poder retroalimentarse para poder crecer y establecerse en un mercado específico, y comprendiendo que el #[i software] es un producto que requiere de la integración con el usuario y que mediante esa operación puedan surgir nuevas necesidades que a su vez se conviertan en requerimientos para ser incluidas en las próximas versiones del sistema, se hace necesario que se creen los mecanismos para que el usuario participe de una manera más activa en el proceso de construcción y mejora del producto, porque esto permitirá que nuestro sistema perdure por mucho más tiempo en el mercado].
+          p  Aunque sabemos que todos los productos fabricados deben tener la manera de poder retroalimentarse para poder crecer y establecerse en un mercado específico, y comprendiendo que el #[i software] es un producto que requiere de la integración con el usuario y que mediante esa operación puedan surgir nuevas necesidades que a su vez se conviertan en requerimientos para ser incluidas en las próximas versiones del sistema, se hace necesario que se creen los mecanismos para que el usuario participe de una manera más activa en el proceso de construcción y mejora del producto, porque esto permitirá que nuestro sistema perdure por mucho más tiempo en el mercado.
       .col-lg-5
         img(src='@/assets/curso/temas/tema3/tema3-img-09.svg', alt='Texto que describa la imagen')
 
@@ -116,8 +116,10 @@
             .row(titulo="Coordinadores de liberación")
               p La liberación del #[i software], podríamos decir de alguna manera, es la fase final del proceso de entrega del producto final al usuario. Antes de realizar este proceso se debe garantizar que todos los procesos de pruebas, despliegue y adaptación del nuevo sistema al ambiente de producción se han realizado de manera correcta, esto implica también la aplicación de las listas de chequeo para verificar que todos los pasos y procedimientos se realizaron de manera exitosa. Este rol es el encargado de la entrega oficial del sistema desarrollado al usuario final, dando por hecho que aquello en lo cual se sentaron un día a negociar y que fue la base de los requerimientos exigidos por el usuario, se ha cumplido en buenos términos, de allí se firman los documentos oficiales de la entrega del producto totalmente terminado y con puesta en marcha.
 
-    p.mb-3 Finalizamos el estudio del componente formativo con los tipos de despliegue, los cuales muestran la manera como un software pasa a producción y de acuerdo con las necesidades tecnológicas del usuario final, se debe determinar de qué manera se realizará este proceso, aunque existen algunos que pueden variar de acuerdo con las formas de negociación que se establezcan con el usuario.
-    p.mb-4 A continuación, veremos tres tipos de despliegues para proyectos de software:
+    h3 Tipos de despliegue
+    p Los tipos de despliegue muestran la manera como un software pasa a producción y, de acuerdo con las necesidades tecnológicas del usuario final, se debe determinar de qué manera se realizará este proceso, aunque existen algunos que pueden variar, de acuerdo con las formas de negociación que se establezcan con el usuario.
+
+    p.mb-4 A continuación, veremos tres tipos de despliegues para proyectos de <i>software</i>:
 
     .tarjeta.tarjeta--azul.slyderA-01.p-4
       SlyderA(tipo="b")
@@ -126,7 +128,7 @@
             .row.justify-content-center.align-items-center.my-lg-4
               .col-md-6.mb-4.mb-md-0
                 h3.mb-3 Autónomo
-                p Un despliegue autónomo incluye la base de datos, la consola de gestión y un agente desplegado en un único host. Este despliegue se utiliza normalmente para fines de evaluación y desarrollo, los cuales suelen realizarse para la comprobación del funcionamiento del aplicativo; para este caso particular, solo se cuenta con un host y la consola de administración, lo que quiere decir que es un sistema básico de despliegue y que solo incluirá una dependencia del sistema, la cual será administrada desde consola y no cuenta con una interfaz de administración que permita realizar este proceso de una manera más sencilla. Se requieren conocimientos técnicos de comandos y rutinas para realizar este tipo de procesos; ahora bien, se comprende también este proceso como la manera más simple de realizar el despliegue de un sistema de información en un ambiente de producción; recordemos que se coloca a disposición del usuario final para que pueda hacer uso del mismo de acuerdo con las negociaciones de acceso, es decir, por ejemplo una VPN o Internet de acuerdo con las políticas de acceso que se determinen. Es importante agregar que este tipo de despliegues suelen ser sencillos en el sentido de que los archivos, tales como bases de datos y de código fuente, se suben de manera rápida al no tener la carga de un entorno de administración complejo.
+                p Un despliegue autónomo incluye la base de datos, la consola de gestión y un agente desplegado en un único host. Este despliegue se utiliza normalmente para fines de evaluación y desarrollo, los cuales suelen realizarse para la comprobación del funcionamiento del aplicativo; para este caso particular, solo se cuenta con un host y la consola de administración, lo que quiere decir que es un sistema básico de despliegue y que solo incluirá una dependencia del sistema, la cual será administrada desde la consola y no cuenta con una interfaz de administración que permita realizar este proceso de una manera más sencilla. Se requieren conocimientos técnicos de comandos y rutinas para realizar este tipo de procesos; ahora bien, se comprende también este proceso como la manera más simple de realizar el despliegue de un sistema de información en un ambiente de producción; recordemos que se coloca a disposición del usuario final, para que pueda hacer uso del mismo, de acuerdo con las negociaciones de acceso como, por ejemplo, una VPN o Internet, de acuerdo con las políticas de acceso que se determinen. Es importante agregar que este tipo de despliegues suelen ser sencillos en el sentido que los archivos, tales como bases de datos y de código fuente, se suben de manera rápida al no tener la carga de un entorno de administración complejo.
               .col-md-6
                 figure
                   img(src='@/assets/curso/temas/tema3/tema3-img-12.svg', alt='Texto que describa la imagen')
@@ -136,7 +138,7 @@
             .row.justify-content-center.align-items-center.my-lg-4
               .col-md-6.mb-4.mb-md-0
                 h3.mb-3 Instalación de producción normal
-                p Una instalación normal coloca la base de datos, la consola de gestión y los agentes en distintos hosts. Este despliegue es el entorno de producción utilizado habitualmente, para estos casos los host o sistemas de soporte de la instalación donde corre la aplicación pueden ser muchos, los cuales permiten generar un balance en la carga y eficiencia del sistema. Esto en términos de rendimiento y velocidad de respuesta es mucho más eficiente y el usuario final tendrá una mejor experiencia en su uso, otro aspecto a tener en cuenta es que, al separar cada componente como base de datos, consola de gestión y agentes en distintos hosts, se tiene un mayor nivel de seguridad.
+                p Una instalación normal coloca la base de datos, la consola de gestión y los agentes en distintos <i>hosts</i>. Este despliegue es el entorno de producción utilizado habitualmente; para estos casos, los <i>hosts</i> o sistemas de soporte de la instalación donde se corre la aplicación, pueden ser muchos, los cuales permiten generar un balance en la carga y eficiencia del sistema. Esto, en términos de rendimiento y velocidad de respuesta, es mucho más eficiente y el usuario final tendrá una mejor experiencia en su utilización; otro aspecto a tener en cuenta es que, al separar cada componente como base de datos, la consola de gestión y agentes en distintos <i>hosts</i>, se tiene un mayor nivel de seguridad.
               .col-md-6
                 figure
                   img(src='@/assets/curso/temas/tema3/tema3-img-13.svg', alt='Texto que describa la imagen')
@@ -146,12 +148,12 @@
             .row.justify-content-center.align-items-center.my-lg-4
               .col-md-6.mb-4.mb-md-0
                 h3.mb-3 Instalación escalonada
-                p.mb-2 En un despliegue escalonado, normalmente hay tres despliegues normales:
+                p.mb-2 En un despliegue escalonado, normalmente hay tres demostraciones normales:
                 ol.lista-ol--cuadro.mb-2
                   li 
                     .lista-ol--cuadro__vineta
                       span 1
-                    | Desarrollo (también denominado scratch o sandbox): el personal de desarrollo lo utiliza para crear proyectos nuevos. También se utiliza como el área inicial para las actualizaciones.
+                    | Desarrollo (también denominado <i>scratch</i> o <i>sandbox</i>): el personal de desarrollo lo utiliza para crear proyectos nuevos. También se utiliza como el área inicial para las actualizaciones.
                   li 
                     .lista-ol--cuadro__vineta
                       span 2

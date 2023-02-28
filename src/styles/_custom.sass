@@ -116,12 +116,12 @@
 .bloque-texto-tema1-1
   right: -316px
   top: -40px
-  height: 292px
+  height: 310px
   width: 658%
   background-color: #0D4AAD  
   p
     color: $white
-    font-size: small
+
   @media (max-width: 500px)  
     right: 0
     top: 40px
@@ -129,20 +129,47 @@
 
 .bloque-texto-tema1-2
   right: -43px
-  top: 252px
+  top: 18rem
   width: 529%
   background-color: #ffffff00
   p
     color: $black
-    font-size: small
-  ul  
-    li  
-      i
-        p
-          font-size: small
+
   @media (max-width: 500px)
     right: -17px
     top: 60px
+.fnd-1
+  background-color: #0D4AAD
+.fnd.bloque-texto-a.color-secundario
+  @media (max-width: 1019px)
+    position: relative
+    width: 100%
+    background-image: url(../assets/curso/temas/tema1/tema1-img-05.svg)
+    background-size: cover
+    background-position: center right
+    background-repeat: no-repeat  
+
+  @media only screen and (max-width: 1018px) and (min-width: 1016px) 
+    background-image: url(../assets/curso/temas/tema1/tema1-img-05.svg)
+    background-position: center right !important
+    background-size: cover
+  @media (min-width: 1019px)
+    position: relative
+    width: 100%
+    background-image: url(../assets/curso/temas/tema1/tema1-img-05.svg)
+    background-size: cover
+    background-position: 0 0
+    background-repeat: no-repeat  
+  &::before 
+    background-color: #fbfbfb00
+.bloqw
+  display: flex !important
+  left: 50%;
+  background-color: #ff0404 !important
+
+
+
+
 
 .tam-tarjeta-color      
   height: 615px

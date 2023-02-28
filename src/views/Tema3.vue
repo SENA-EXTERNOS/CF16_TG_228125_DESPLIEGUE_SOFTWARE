@@ -94,7 +94,7 @@
       .col-lg-5
         img(src='@/assets/curso/temas/tema3/tema3-img-09.svg', alt='Texto que describa la imagen')
 
-    p.mb-3 Por otra parte, los roles están conectados con las responsabilidades que influyen en un proyecto de software y de acuerdo con la experiencia y formación de cada miembro del equipo de trabajo, aunque en algunas ocasiones una persona puede desarrollar varias funciones, es indispensable que se cuente con los conocimientos y habilidades para cumplir de manera satisfactoria este proceso.
+    p.mb-3 Por otra parte, los roles están conectados con las responsabilidades que influyen en un proyecto de <i>software</i> y de acuerdo con la experiencia y formación de cada miembro del equipo de trabajo, aunque en algunas ocasiones una persona puede desarrollar varias funciones, es indispensable que se cuente con los conocimientos y habilidades para cumplir de manera satisfactoria este proceso.
     p.mb-4 Conozcamos varios de estos roles y cuáles son los procesos que ejecutan:
 
     .row.justify-content-center.mb-4
@@ -117,7 +117,7 @@
               p La liberación del #[i software], podríamos decir de alguna manera, es la fase final del proceso de entrega del producto final al usuario. Antes de realizar este proceso se debe garantizar que todos los procesos de pruebas, despliegue y adaptación del nuevo sistema al ambiente de producción se han realizado de manera correcta, esto implica también la aplicación de las listas de chequeo para verificar que todos los pasos y procedimientos se realizaron de manera exitosa. Este rol es el encargado de la entrega oficial del sistema desarrollado al usuario final, dando por hecho que aquello en lo cual se sentaron un día a negociar y que fue la base de los requerimientos exigidos por el usuario, se ha cumplido en buenos términos, de allí se firman los documentos oficiales de la entrega del producto totalmente terminado y con puesta en marcha.
 
     h3 Tipos de despliegue
-    p Los tipos de despliegue muestran la manera como un software pasa a producción y, de acuerdo con las necesidades tecnológicas del usuario final, se debe determinar de qué manera se realizará este proceso, aunque existen algunos que pueden variar, de acuerdo con las formas de negociación que se establezcan con el usuario.
+    p Los tipos de despliegue muestran la manera como un <i>software</i> pasa a producción y, de acuerdo con las necesidades tecnológicas del usuario final, se debe determinar de qué manera se realizará este proceso, aunque existen algunos que pueden variar, de acuerdo con las formas de negociación que se establezcan con el usuario.
 
     p.mb-4 A continuación, veremos tres tipos de despliegues para proyectos de <i>software</i>:
 
@@ -153,7 +153,12 @@
                   li 
                     .lista-ol--cuadro__vineta
                       span 1
-                    | Desarrollo (también denominado <i>scratch</i> o <i>sandbox</i>): el personal de desarrollo lo utiliza para crear proyectos nuevos. También se utiliza como el área inicial para las actualizaciones.
+                    p.mb-0
+                      spam| Desarrollo (también denominado 
+                      em scratch 
+                      | o 
+                      em sandbox): 
+                      | el personal de desarrollo lo utiliza para crear proyectos nuevos. También se utiliza como el área inicial para las actualizaciones.
                   li 
                     .lista-ol--cuadro__vineta
                       span 2

@@ -21,7 +21,7 @@
       ImagenInfografica.color-primario
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/temas/tema2/tema2-img-02.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema2/tema2-img-02-.png', alt='Texto que describa la imagen')
 
         .tarjeta.color-acento-contenido.p-3(x="17.5%" y="29%" numero="1")
           p.mb-3 El entorno de desarrollo propiamente dicho se refiere a la creación del #[i software]. Puede ser manejado a nivel local en el ordenador del programador o en un servidor local. Así mismo, puede ser procesado en herramientas desarrolladas para este tipo de tareas.

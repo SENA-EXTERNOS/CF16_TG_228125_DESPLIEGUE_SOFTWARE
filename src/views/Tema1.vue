@@ -16,9 +16,9 @@
               img(src='@/assets/curso/temas/tema1/tema1-img-01.svg', alt='Texto que describa la imagen').tam-movil-img
             .col-lg-8
               p.mb-3 Antes de continuar, respondamos la siguiente pregunta: ¿qué es el proceso de integración continua?
-              p Es una práctica habitual en el desarrollo de software que consiste en integrar, frecuentemente, mejoras en el código de un proyecto, una vez estas hayan sido validadas; acción que se lleva a cabo, normalmente, varias veces al día, con el objetivo de detectar errores lo antes posible.
+              p Es una práctica habitual en el desarrollo de <i>software</i> que consiste en integrar, frecuentemente, mejoras en el código de un proyecto, una vez estas hayan sido validadas; acción que se lleva a cabo, normalmente, varias veces al día, con el objetivo de detectar errores lo antes posible.
 
-          p Cada cambio que realiza un desarrollador (sea una resolución de un bug, la creación de una nueva funcionalidad, etc.), se comprueba compilando el código fuente y obteniendo un ejecutable (llamado build). Si es validado, será incorporado al código fuente y desplegado.
+          p Cada cambio que realiza un desarrollador (sea una resolución de un <i>bug</i>, la creación de una nueva funcionalidad, etc.), se comprueba compilando el código fuente y obteniendo un ejecutable (llamado build). Si es validado, será incorporado al código fuente y desplegado.
       .col-lg-5
         img(src='@/assets/curso/temas/tema1/tema1-img-02.svg', alt='Texto que describa la imagen')(data-aos="fade-left")
 
@@ -94,7 +94,7 @@
 
                   li
                     i.fas.fa-play
-                    |         Capacidad para importar repositorios existentes, ya sea GitHub o algunos otros.
+                    |         Capacidad para importar repositorios existentes, ya sea <i>GitHub</i> o algunos otros.
                   li
                     i.fas.fa-play
                     |         Interfaz web para interaccionar con GitLab permitiéndonos trabajar de una manera intuitiva.
@@ -102,39 +102,59 @@
                     i.fas.fa-play
                     |         Historial de modificaciones del proyecto.
 
-    .bloque-texto-g.color-blanca.tam-tarjeta-color.p-3.p-sm-1.p-md-5    
-      .bloque-texto-g__img.bloque-texto-img1-1(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-img-05.svg')})`}"
-      )
-      .bloque-texto-g__texto.bloque-texto-tema1-1.p-3
-        p.mb-0 Continuemos hablando un poco más sobre GitLab. La ventaja principal es que facilita notablemente el desarrollo de software ágil entre varios equipos. De esta manera, varios desarrolladores pueden trabajar simultáneamente en un proyecto y editar, por ejemplo, diferentes funciones de forma paralela. La protocolización continua de todos los procesos, garantiza que no se pierda ninguna modificación del código, ni que se sobreescriba de forma no intencionada. También es posible deshacer rápidamente los cambios ya aplicados, en esta nueva tendencia del agilismo, donde las metodologías de desarrollo ágil como Scum, Kanban y XP, permiten la integración del usuario en los procesos de desarrollo del producto de software. Así se garantiza que el proceso de integración se realice de manera mucho más detallada y con el cliente, teniendo en cuenta que es el protagonista en el proceso de construcción del producto.<br/>
-      .bloque-texto-g__texto.bloque-texto-tema1-2
-        p.mb-1 Entre las funciones más importantes de GitLab se encuentran las siguientes:<br/> 
-        ul.color-i
-          li
-            i.fas.fa-play
-              p.mb-0                   Interfaz fácil de usar.<br/>        
-          li
-            i.fas.fa-play
-              p.mb-0                   Las ramificaciones pueden permanecer privadas o publicarse.<br/> 
-          li
-            i.fas.fa-play
-              p.mb-0                   Posibilidad de gestionar varios repositorios.<br/> 
-          li
-            i.fas.fa-play
-            p.mb-0                     Revisión de códigos.<br/>  
-          li
-            i.fas.fa-play
-            p.mb-0                     Localización integrada de errores y problemas.<br/> 
-          li
-            i.fas.fa-play
-            p.mb-0                     Integración continua y entrega continua integradas de forma gratuita.<br/> 
-          li
-            i.fas.fa-play
-            p.mb-0                     Wikis de proyectos.<br/>  
-          li
-            i.fas.fa-play
-            p.mb-0                     Creación sencilla de fragmentos de código para dividir partes del código.                                                                                             
+
+
+
+
+
+
+    .bloque-texto-a.color-secundario.mb-5.fnd
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-4.mb-4.mb-lg-0.col-md-12
+           
+        .col-lg-8.col-md-12
+          .bloque-texto-a__texto.p-4.mb-3.fnd-1
+            p.mb-0.text-white Continuemos hablando un poco más sobre <i>GitLab</i>. La ventaja principal es que facilita notablemente el desarrollo de <i>software</i> ágil entre varios equipos. De esta manera, varios desarrolladores pueden trabajar simultáneamente en un proyecto y editar, por ejemplo, diferentes funciones de forma paralela. La protocolización continua de todos los procesos, garantiza que no se pierda ninguna modificación del código, ni que se sobreescriba de forma no intencionada. También es posible deshacer rápidamente los cambios ya aplicados, en esta nueva tendencia del agilismo, donde las metodologías de desarrollo ágil como Scrum, Kanban y XP, permiten la integración del usuario en los procesos de desarrollo del producto de <i>software</i>. Así se garantiza que el proceso de integración se realice de manera mucho más detallada y con el cliente, teniendo en cuenta que es el protagonista en el proceso de construcción del producto.
+          .row 
+            .col-lg-5
+
+            .col-lg-7
+              p.mb-1 Entre las funciones más importantes de GitLab se encuentran las siguientes:
+              ul.lista-ul.mb-3.color-i
+                li
+                  i.fas.fa-play
+                  | Interfaz fácil de usar.        
+                li
+                  i.fas.fa-play
+                  |Las ramificaciones pueden permanecer privadas o publicarse.
+                li
+                  i.fas.fa-play
+                  | Posibilidad de gestionar varios repositorios.
+                li
+                  i.fas.fa-play
+                  | Revisión de códigos.
+                li
+                  i.fas.fa-play
+                  | Localización integrada de errores y problemas.
+                li
+                  i.fas.fa-play
+                  | Integración continua y entrega continua integradas de forma gratuita.
+                li
+                  i.fas.fa-play
+                  | Wikis de proyectos.
+                li
+                  i.fas.fa-play
+                  | Creación sencilla de fragmentos de código para dividir partes del código.                                                                                           
+
+
+
+
+
+
+
+
+
+
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-11
@@ -148,18 +168,18 @@
               .row.justify-content-center.mb-3
                 .col-7
                   img(src='@/assets/curso/temas/tema1/tema1-img-06.png', alt='Texto que describa la imagen').posicion-avatar
-              p.text-small.text-center.posicion-txt-tar <b> GitLab CE: <i>Community-Edition</i> (gratuita).</b>
+              p.text-center.posicion-txt-tar <b> GitLab CE: Community-Edition< (gratuita).</b>
 
           .col-sm-6.col-lg-4.mb-4.mb-lg-0.margin-top-tar
             .tarjeta--boton.color-secundario1.p-4
               .row.justify-content-center.mb-3
                 .col-7
                   img(src='@/assets/curso/temas/tema1/tema1-img-07.png', alt='Texto que describa la imagen').posicion-avatar   
-              p.text-small.text-center.posicion-txt-tar <b> GitLab EE: <i>Enterprise-Edition</i> (de pago).</b>
+              p.text-center.posicion-txt-tar <b> GitLab EE: Enterprise-Edition (de pago).</b>
 
     .row.justify-content-center.align-items-center.mt-4
       .col-lg-11
-        p Ambas versiones están basadas en la licencia de código abierto MIT. La <i>Enterprise-Edition</i> cuenta con algunas funciones adicionales en comparación con la <i>Community</i>. En este contexto, <i>GitLab</i> ofrece tres modelos de suscripción en función del alcance de las funciones adicionales deseadas.
+        p Ambas versiones están basadas en la licencia de código abierto MIT. La Enterprise-Edition cuenta con algunas funciones adicionales en comparación con la Community. En este contexto, <i>GitLab</i> ofrece tres modelos de suscripción en función del alcance de las funciones adicionales deseadas.
 
 
 </template>

@@ -102,59 +102,39 @@
                     i.fas.fa-play
                     |         Historial de modificaciones del proyecto.
 
-
-
-
-
-
-
-    .bloque-texto-a.color-secundario.mb-5.fnd
-      .row.m-0.align-items-center.justify-content-between
-        .col-lg-4.mb-4.mb-lg-0.col-md-12
-           
-        .col-lg-8.col-md-12
-          .bloque-texto-a__texto.p-4.mb-3.fnd-1
-            p.mb-0.text-white Continuemos hablando un poco más sobre GitLab. La ventaja principal es que facilita notablemente el desarrollo de <i>software</i> ágil entre varios equipos. De esta manera, varios desarrolladores pueden trabajar simultáneamente en un proyecto y editar, por ejemplo, diferentes funciones de forma paralela. La protocolización continua de todos los procesos, garantiza que no se pierda ninguna modificación del código, ni que se sobreescriba de forma no intencionada. También es posible deshacer rápidamente los cambios ya aplicados, en esta nueva tendencia del agilismo, donde las metodologías de desarrollo ágil como Scrum, Kanban y XP, permiten la integración del usuario en los procesos de desarrollo del producto de <i>software</i>. Así se garantiza que el proceso de integración se realice de manera mucho más detallada y con el cliente, teniendo en cuenta que es el protagonista en el proceso de construcción del producto.
-          .row 
-            .col-lg-5
-
-            .col-lg-7
-              p.mb-1 Entre las funciones más importantes de GitLab se encuentran las siguientes:
-              ul.lista-ul.mb-3.color-i
-                li
-                  i.fas.fa-play
-                  | Interfaz fácil de usar.        
-                li
-                  i.fas.fa-play
-                  |Las ramificaciones pueden permanecer privadas o publicarse.
-                li
-                  i.fas.fa-play
-                  | Posibilidad de gestionar varios repositorios.
-                li
-                  i.fas.fa-play
-                  | Revisión de códigos.
-                li
-                  i.fas.fa-play
-                  | Localización integrada de errores y problemas.
-                li
-                  i.fas.fa-play
-                  | Integración continua y entrega continua integradas de forma gratuita.
-                li
-                  i.fas.fa-play
-                  | Wikis de proyectos.
-                li
-                  i.fas.fa-play
-                  | Creación sencilla de fragmentos de código para dividir partes del código.                                                                                           
-
-
-
-
-
-
-
-
-
-
+    .row.justify-content-center.mb-4  
+      .col-lg-6.col-md-12.my-3
+        .bloque-texto-a__texto.p-4.mb-3.fnd-1.h-100
+          p.mb-0.text-white Continuemos hablando un poco más sobre GitLab. La ventaja principal es que facilita notablemente el desarrollo de <i>software</i> ágil entre varios equipos. De esta manera, varios desarrolladores pueden trabajar simultáneamente en un proyecto y editar, por ejemplo, diferentes funciones de forma paralela. La protocolización continua de todos los procesos, garantiza que no se pierda ninguna modificación del código, ni que se sobreescriba de forma no intencionada. También es posible deshacer rápidamente los cambios ya aplicados, en esta nueva tendencia del agilismo, donde las metodologías de desarrollo ágil como Scrum, Kanban y XP, permiten la integración del usuario en los procesos de desarrollo del producto de <i>software</i>. Así se garantiza que el proceso de integración se realice de manera mucho más detallada y con el cliente, teniendo en cuenta que es el protagonista en el proceso de construcción del producto.
+                  
+      .col-lg-6.col-md-12.my-3
+        .bg1.p-4.h-100
+          p.mb-1 Entre las funciones más importantes de GitLab se encuentran las siguientes:
+          ul.lista-ul.mb-3.color-i
+            li
+              i.fas.fa-play
+              | Interfaz fácil de usar.        
+            li
+              i.fas.fa-play
+              |Las ramificaciones pueden permanecer privadas o publicarse.
+            li
+              i.fas.fa-play
+              | Posibilidad de gestionar varios repositorios.
+            li
+              i.fas.fa-play
+              | Revisión de códigos.
+            li
+              i.fas.fa-play
+              | Localización integrada de errores y problemas.
+            li
+              i.fas.fa-play
+              | Integración continua y entrega continua integradas de forma gratuita.
+            li
+              i.fas.fa-play
+              | Wikis de proyectos.
+            li
+              i.fas.fa-play
+              | Creación sencilla de fragmentos de código para dividir partes del código. 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-11

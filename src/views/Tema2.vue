@@ -13,7 +13,7 @@
           p.mb-0 Ahora, en el desarrollo de los productos de #[i software] intervienen diversas etapas, una de ellas es la codificación de los requerimientos funcionales y no funcionales, conocida como desarrollo; posteriormente es la revisión del cumplimiento de dichos requerimientos en el #[i software] y la usabilidad que muestra para los usuarios, que se conoce como aseguramiento de la calidad o pruebas. Por último, es puesto en operación para brindar un servicio a los usuarios que lo utilizarán.
         p El ambiente de desarrollo se usa para integrar el código de los diferentes componentes del equipo de programación, así como los elementos que forman el sistema de información o aplicación, como son: lenguajes, librerías, #[i frameworks], base de datos, entre otros. De igual manera, se puede hacer uso de herramientas que apoyen al entorno de desarrollo, como por ejemplo, el Subversion o el GitLab, que ayudan a gestionar el código fuente, para el control de versiones y su reutilización.
       .col-lg-5
-        img(src='@/assets/curso/temas/tema2/tema2-img-01.svg', alt='Texto que describa la imagen')(data-aos="fade-left")
+        img(src='@/assets/curso/temas/tema2/tema2-img-01.svg', alt='')(data-aos="fade-left")
 
     p.mt-4 Conozcamos los diferentes tipos de entorno:
     
@@ -21,7 +21,7 @@
       ImagenInfografica.color-primario
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/temas/tema2/tema2-img-02-.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema2/tema2-img-02-.png', alt='')
 
         .tarjeta.color-acento-contenido.p-3(x="17.5%" y="29%" numero="1")
           p.mb-3 El entorno de desarrollo propiamente dicho se refiere a la creación del #[i software]. Puede ser manejado a nivel local en el ordenador del programador o en un servidor local. Así mismo, puede ser procesado en herramientas desarrolladas para este tipo de tareas.
@@ -39,21 +39,33 @@
           p Si el entorno de producción está bien configurado y se han realizado pruebas automatizadas, por parte del usuario, no debería existir ninguna incidencia en la ejecución del <i>software</i> final.
 
     p.mt-4 Podemos concluir, entonces, que los entornos de producción son ambientes que poseen una tecnología que permite realizar el despliegue de un aplicativo de <i>software</i> de una manera masiva para ser utilizado por varios usuarios al tiempo; es donde se incluyen los datos de operación y empieza a ser alimentado con datos reales y en condiciones reales de operación. Esto es algo que se debe realizar mediante la transición del entorno de desarrollo, hasta llegar al entorno de producción, donde el <i>software</i> será usado masivamente.
-    p.mt-3 A continuación, se presentan unos esquemas de esta transición.
+    p.mt-3.mb-4 A continuación, se presentan unos esquemas de esta transición.
 
     .acordionA-01
       AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
         .row(titulo="Entorno de desarrollo")
-          p.mb-2 El entorno de desarrollo utiliza áreas de proyecto en el almacén de objetos de diseño para aislar los efectos del restablecimiento del entorno de pruebas. Cada área de proyecto tiene su propio almacén de objetos de destino y su propia región de #[i Content Platform Engine].
-          img(src='@/assets/curso/temas/tema2/tema2-img-03.png', alt='Texto que describa la imagen')
+          p.mb-4 El entorno de desarrollo utiliza áreas de proyecto en el almacén de objetos de diseño para aislar los efectos del restablecimiento del entorno de pruebas. Cada área de proyecto tiene su propio almacén de objetos de destino y su propia región de #[i Content Platform Engine].
+          .col-12
+            .titulo-sexto.color-acento-contenido.z-999.mb-2
+              h5.mb-0 Figura 1. 
+              p.mb-0 #[em Estructura de un entorno de desarrollo]
+          img(src='@/assets/curso/temas/tema2/tema2-img-03.svg', alt='')
 
         .row(titulo="Entorno de prueba")
-          p.mb-2 Es para probar las soluciones que se han creado en el entorno de desarrollo. Puede tener varios entornos de pruebas, por ejemplo, un entorno de pruebas de rendimiento y un entorno de pruebas de preproducción.
-          img(src='@/assets/curso/temas/tema2/tema2-img-04.png', alt='Texto que describa la imagen')
+          p.mb-4 Es para probar las soluciones que se han creado en el entorno de desarrollo. Puede tener varios entornos de pruebas, por ejemplo, un entorno de pruebas de rendimiento y un entorno de pruebas de preproducción.
+          .col-12
+            .titulo-sexto.color-acento-contenido.z-999.mb-2
+              h5.mb-0 Figura 2. 
+              p.mb-0 #[em Estructura de un entorno de pruebas]
+          img(src='@/assets/curso/temas/tema2/tema2-img-04.svg', alt='')
 
         .row(titulo="Entorno de producción")
-          p.mb-2 El entorno de producción está en un dominio de FileNet P8 diferente. En el entorno de producción necesita un único almacén de objetos de transferencia a donde se importan y desde donde se despliegan las soluciones. También necesita entornos de destino donde desplegar las soluciones. Puede desplegar muchas soluciones en un único entorno de destino. Asegúrese de tener suficientes recursos de sistema para el número de casos que prevé tener en cada base de datos.
-          img(src='@/assets/curso/temas/tema2/tema2-img-05.png', alt='Texto que describa la imagen')           
+          p.mb-4 El entorno de producción está en un dominio de FileNet P8 diferente. En el entorno de producción necesita un único almacén de objetos de transferencia a donde se importan y desde donde se despliegan las soluciones. También necesita entornos de destino donde desplegar las soluciones. Puede desplegar muchas soluciones en un único entorno de destino. Asegúrese de tener suficientes recursos de sistema para el número de casos que prevé tener en cada base de datos.
+          .col-12
+            .titulo-sexto.color-acento-contenido.z-999.mb-2
+              h5.mb-0 Figura 3. 
+              p.mb-0 #[em Estructura de un entorno de producción]
+          img(src='@/assets/curso/temas/tema2/tema2-img-05.svg', alt='')           
 
     p.mt-4 Pudimos observar los diferentes procesos que debe sufrir un aplicativo desarrollado antes de llevar a producción, donde el usuario final tendrá la oportunidad de probar el sistema y se empieza su prueba real; este proceso de transición no es fácil, por ello se deben seguir todos los pasos y procedimientos necesarios para llevar a cabo de manera eficiente todo lo que se requiera.
     p.mt-3 Para conocer cuáles son las técnicas utilizadas para los procesos de producción, le invitamos a ver el siguiente video.
@@ -69,7 +81,7 @@
         p.mb-4 Hablemos ahora sobre los reportes, los cuales son estructuras que se encuentran estrechamente relacionadas con la información almacenada en la base de datos del aplicativo; en otras palabras, son consultas que se realizan para obtener datos almacenados en un sistema de información con una configuración y estructura específicas; esto se realiza con el propósito de obtener información ordenada y que pueda servir para la toma de decisión en una organización. Los reportes, a menudo mezclan diferentes aspectos de la información de una organización, es decir, un reporte puede incluir información general, financiera, presupuestal y de recursos humanos al tiempo, para tener una comprensión y datos organizados con un sentido propio.
         p Un ejemplo de ello es cuando una organización desea conocer las facturas que se han emitido en un periodo específico, cada una de estas facturas trae:
       .col-lg-5
-        img(src='@/assets/curso/temas/tema2/tema2-img-06.svg', alt='Texto que describa la imagen')(data-aos="flip-left")
+        img(src='@/assets/curso/temas/tema2/tema2-img-06.svg', alt='')(data-aos="flip-left")
 
     .crd.clr-paleBlue-1.mt-5
       .row.justify-content-center.align-items-center.posicion-slyder
@@ -143,7 +155,7 @@
         p Como podemos observar, las consultas nos permiten recuperar la información que se encuentra dentro de la base de datos y luego poder realizar los procedimientos requeridos por la organización.
 
       .col-lg-5
-        img(src='@/assets/curso/temas/tema2/tema2-img-13.svg', alt='Texto que describa la imagen')(data-aos="flip-left")
+        img(src='@/assets/curso/temas/tema2/tema2-img-13.svg', alt='')(data-aos="flip-left")
 
 
 </template>

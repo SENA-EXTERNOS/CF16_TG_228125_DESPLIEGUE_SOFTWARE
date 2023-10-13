@@ -21,7 +21,7 @@
             
               .col-md-6
                 figure
-                  img(src='@/assets/curso/temas/tema3/tema3-img-02.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/tema3/tema3-img-02.svg', alt='')
       .py-3.py-md-4(titulo="Instalación y activación")
         .row.background-3.justify-content-center.align-items-center
           .col-lg-11      
@@ -31,7 +31,7 @@
                 p La instalación y activación del sistema dependen en gran medida al tipo de sistema de información que se esté implementando, por ejemplo, en caso de que el aplicativo necesite copias, los archivos requeridos para su ejecución, en otras palabras, la instalación provee y coloca los archivos necesarios en el servidor de despliegue. En caso de que estemos utilizando una infraestructura como AWS o AZURE para desplegar nuestro aplicativo o en caso de estar realizando el proceso en una máquina, tal como un PC o dispositivo móvil, lo que hace este proceso es colocar los archivos que permiten que el #[i software] se ejecute de manera correcta; ahora, el proceso de activación depende de la negociación establecida para dar acceso al sistema, por ejemplo, licencias o permisos de uso, en este caso como bien sabemos las empresas y #[i software] en general, tienen ciertos procesos de acceder. Si vemos por ejemplo el caso del #[i software] de Office, una vez que se instala, este solicita un código de licencia para activar el sistema y ser utilizado de acuerdo con las políticas y tipo de licencia que el usuario obtuvo; este restringe el uso del sistema y brinda ciertos beneficios a quien lo utiliza, como también encontramos #[i software free], el cual no requiere de una activación sino que puede ser utilizado sin ninguna restricción por parte del usuario final.
               .col-md-6.mb-4.mb-md-0
                 figure
-                  img(src='@/assets/curso/temas/tema3/tema3-img-03.svg', alt='Texto que describa la imagen')            
+                  img(src='@/assets/curso/temas/tema3/tema3-img-03.svg', alt='')            
       .py-3.py-md-4(titulo="Desactivación")
         .row.background-3.justify-content-center.align-items-center
           .col-lg-11      
@@ -41,7 +41,7 @@
                 p La desactivación se realiza de dos maneras, porque depende de cómo se realizó el proceso de negociación con el usuario, es decir, si se realizó bajo la negociación de licencia y esta se ha vencido, el sistema automáticamente niega el acceso y desactiva el usuario, lo que provoca que el usuario no pueda acceder al sistema. Este proceso es el más común para evitar que un usuario utilice un sistema de información sin negociar con el dueño del aplicativo su uso, pero también se puede dar el caso de la desactivación de un sistema por causas tales como errores en los procesos o funciones que realiza; en este caso, si el sistema se encuentra en una plataforma de despliegue se puede desactivar el servicio o detener lo que provoca que el #[i software] no pueda ser accedido por ningún usuario del sistema, esto se utiliza para realizar mantenimiento o mejoras en el sistema como tal.
               .col-md-6.mb-4.mb-md-0
                 figure
-                  img(src='@/assets/curso/temas/tema3/tema3-img-04.svg', alt='Texto que describa la imagen')            
+                  img(src='@/assets/curso/temas/tema3/tema3-img-04.svg', alt='')            
       .py-3.py-md-4(titulo="Desinstalación")
         .row.background-3.justify-content-center.align-items-center
           .col-lg-11      
@@ -51,7 +51,7 @@
                 p La desinstalación es un proceso que permite borrar completamente los archivos que han sido copiados en un proceso de instalación, esto implica que se borre el rastro de instalación de la aplicación dentro del dispositivo, o en el caso que se realice desde una plataforma de despliegue, borrar las configuraciones y documentos que se utilizaron para colocar en marcha inicialmente el #[i software]. Tenemos que tener presentes las siguientes consideraciones y es que la desinstalación tiene diferentes opciones: una es la desinstalación completa que borra completamente el rastro del aplicativo como tal y adicional a ello, elimina los datos que se hayan generado a través del aplicativo; y la otra es la eliminación del #[i software] pero que se conserven los archivos y datos generados. Este tipo de desinstalaciones se utilizan mucho en el caso de los #[i software] de videojuegos, donde se puede desinstalar el juego pero se conservan las partidas y perfiles creados del usuario para que cuando se realice nuevamente la instalación se conserven estos datos para no iniciar desde cero el proceso de manejo del sistema de información; en este caso, cuando nos referimos a la eliminación de los archivos de instalación, es borrarlos del disco duro del dispositivo, es decir, de manera permanente. En caso que se quiera utilizar nuevamente el aplicativo, se debe realizar el proceso de instalación, es decir, copiar nuevamente los archivos necesarios para que el sistema pueda ejecutarse de nuevo.
               .col-md-6.mb-4.mb-md-0
                 figure
-                img(src='@/assets/curso/temas/tema3/tema3-img-05.svg', alt='Texto que describa la imagen')            
+                img(src='@/assets/curso/temas/tema3/tema3-img-05.svg', alt='')            
       .py-3.py-md-4(titulo="Actualización")
         .row.background-3.justify-content-center.align-items-center
           .col-lg-11      
@@ -63,7 +63,7 @@
                 p Por otro lado, la actualización de los programas y demás productos digitales no siempre es algo positivo. En algunos casos, se vuelve necesario instalar nuevas versiones durante muy poco tiempo desde el momento de su lanzamiento, porque la compañía desarrolladora no ha hecho un buen trabajo optimizando su producto y necesita corregir una gran cantidad de errores para que funcione de manera correcta.
               .col-md-6.mb-4.mb-md-0
                 figure
-                  img(src='@/assets/curso/temas/tema3/tema3-img-06.svg', alt='Texto que describa la imagen')            
+                  img(src='@/assets/curso/temas/tema3/tema3-img-06.svg', alt='')            
       .py-3.py-md-4(titulo="Seguimiento de versiones")
         .row.background-3.justify-content-center.align-items-center
           .col-lg-11      
@@ -74,7 +74,7 @@
                 p En la actualidad existen varias aplicaciones que realizan este proceso, una de ellas es GIT, la cual permite controlar las versiones del código fuente y los cambios que se realizan en el mismo- Git se ha ideado para posibilitar la ramificación y el etiquetado como procesos de primera importancia (a diferencia de SVN) y las operaciones que afectan a las ramas y las etiquetas (como la fusión o la reversión) también se almacenan en el historial de cambios.
               .col-md-6.mb-4.mb-md-0
                 figure
-                  img(src='@/assets/curso/temas/tema3/tema3-img-07.svg', alt='Texto que describa la imagen')            
+                  img(src='@/assets/curso/temas/tema3/tema3-img-07.svg', alt='')            
       .py-3.py-md-4(titulo="Adaptación")
         .row.background-3.justify-content-center.align-items-center
           .col-lg-11      
@@ -85,21 +85,21 @@
                 p Otros ejemplos del #[i software] adaptativo son aquellos que se utilizan para controlar los dispositivos externos que mejoran la experiencia de las personas con movilidad reducida. Un individuo con un uso limitado de las manos puede ser capaz de disfrutar el uso de un ordenador con la ayuda de un ratón o un joystick de gran tamaño y que resulta más fácil de manipular. Las personas con visión limitada se pueden beneficiar de la adición de un escáner que hace que sea posible ampliar el texto que se muestra en la pantalla o posiblemente interpretar un texto en #[i braille] en la voz, en este aspecto estamos viendo la adaptación desde el punto de vista de cómo el sistema puede ajustarse a las necesidades expresadas o necesarias para un cliente o usuario final esto en términos de calidad y usabilidad garantiza que el sistema muchos de estos aspectos pueden ser pensados desde los requerimientos iniciales entregados por el usuario o solo ser un valor agregado que permite la capacidad al sistema de ser operado o llegar a un mayor público.
               .col-md-6.mb-4.mb-md-0
                 figure
-                  img(src='@/assets/curso/temas/tema3/tema3-img-08.svg', alt='Texto que describa la imagen')            
+                  img(src='@/assets/curso/temas/tema3/tema3-img-08.svg', alt='')            
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7
         .cajon.color-primario.p-4.mt-4
           p  Aunque sabemos que todos los productos fabricados deben tener la manera de poder retroalimentarse para poder crecer y establecerse en un mercado específico, y comprendiendo que el #[i software] es un producto que requiere de la integración con el usuario y que mediante esa operación puedan surgir nuevas necesidades que a su vez se conviertan en requerimientos para ser incluidas en las próximas versiones del sistema, se hace necesario que se creen los mecanismos para que el usuario participe de una manera más activa en el proceso de construcción y mejora del producto, porque esto permitirá que nuestro sistema perdure por mucho más tiempo en el mercado.
       .col-lg-5
-        img(src='@/assets/curso/temas/tema3/tema3-img-09.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/temas/tema3/tema3-img-09.svg', alt='')
 
     p.mb-3 Por otra parte, los roles están conectados con las responsabilidades que influyen en un proyecto de <i>software</i> y de acuerdo con la experiencia y formación de cada miembro del equipo de trabajo, aunque en algunas ocasiones una persona puede desarrollar varias funciones, es indispensable que se cuente con los conocimientos y habilidades para cumplir de manera satisfactoria este proceso.
     p.mb-4 Conozcamos varios de estos roles y cuáles son los procesos que ejecutan:
 
     .row.justify-content-center.mb-4
       .col-lg-5
-        img(src='@/assets/curso/temas/tema3/tema3-img-10.svg', alt='Texto que describa la imagen')    
+        img(src='@/assets/curso/temas/tema3/tema3-img-10.svg', alt='')    
       .col-lg-7
         .acordionA-02
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
@@ -121,7 +121,7 @@
 
     p.mb-4 A continuación, veremos tres tipos de despliegues para proyectos de <i>software</i>:
 
-    .tarjeta.tarjeta--azul.slyderA-01.p-4
+    .tarjeta.tarjeta--azul.slyderA-01.p-4.mb-5
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center
           .col-lg-11
@@ -131,7 +131,7 @@
                 p Un despliegue autónomo incluye la base de datos, la consola de gestión y un agente desplegado en un único <i>host</i>. Este despliegue se utiliza normalmente para fines de evaluación y desarrollo, los cuales suelen realizarse para la comprobación del funcionamiento del aplicativo; para este caso particular, solo se cuenta con un <i>host</i> y la consola de administración, lo que quiere decir que es un sistema básico de despliegue y que solo incluirá una dependencia del sistema, la cual será administrada desde la consola y no cuenta con una interfaz de administración que permita realizar este proceso de una manera más sencilla. Se requieren conocimientos técnicos de comandos y rutinas para realizar este tipo de procesos; ahora bien, se comprende también este proceso como la manera más simple de realizar el despliegue de un sistema de información en un ambiente de producción; recordemos que se coloca a disposición del usuario final, para que pueda hacer uso del mismo, de acuerdo con las negociaciones de acceso como, por ejemplo, una VPN o Internet, de acuerdo con las políticas de acceso que se determinen. Es importante agregar que este tipo de despliegues suelen ser sencillos en el sentido que los archivos, tales como bases de datos y de código fuente, se suben de manera rápida al no tener la carga de un entorno de administración complejo.
               .col-md-6
                 figure
-                  img(src='@/assets/curso/temas/tema3/tema3-img-12.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/tema3/tema3-img-12.svg', alt='')
 
         .row.justify-content-center.align-items-center
           .col-lg-11
@@ -141,7 +141,7 @@
                 p Una instalación normal coloca la base de datos, la consola de gestión y los agentes en distintos <i>hosts</i>. Este despliegue es el entorno de producción utilizado habitualmente; para estos casos, los <i>hosts</i> o sistemas de soporte de la instalación donde se corre la aplicación, pueden ser muchos, los cuales permiten generar un balance en la carga y eficiencia del sistema. Esto, en términos de rendimiento y velocidad de respuesta, es mucho más eficiente y el usuario final tendrá una mejor experiencia en su utilización; otro aspecto a tener en cuenta es que, al separar cada componente como base de datos, la consola de gestión y agentes en distintos <i>hosts</i>, se tiene un mayor nivel de seguridad.
               .col-md-6
                 figure
-                  img(src='@/assets/curso/temas/tema3/tema3-img-13.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/tema3/tema3-img-13.svg', alt='')
         
         .row.justify-content-center.align-items-center
           .col-lg-11
@@ -171,11 +171,10 @@
 
               .col-md-6
                 figure
-                  img(src='@/assets/curso/temas/tema3/tema3-img-14.svg', alt='Texto que describa la imagen')            
+                  img(src='@/assets/curso/temas/tema3/tema3-img-14.svg', alt='')            
   
-  .row.justify-content-center.align-items-center
-    .col-lg-10
-      p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
+    
+    p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 
 
 

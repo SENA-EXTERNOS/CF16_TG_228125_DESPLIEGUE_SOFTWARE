@@ -13,14 +13,14 @@
         .cajon.color-acento-botones.p-4.mt-4
           .row.justify-content-center.align-items-center
             .col-lg-4
-              img(src='@/assets/curso/temas/tema1/tema1-img-01.svg', alt='Texto que describa la imagen').tam-movil-img
+              img(src='@/assets/curso/temas/tema1/tema1-img-01.svg', alt='').tam-movil-img
             .col-lg-8
               p.mb-3 Antes de continuar, respondamos la siguiente pregunta: ¿qué es el proceso de integración continua?
               p Es una práctica habitual en el desarrollo de <i>software</i> que consiste en integrar, frecuentemente, mejoras en el código de un proyecto, una vez estas hayan sido validadas; acción que se lleva a cabo, normalmente, varias veces al día, con el objetivo de detectar errores lo antes posible.
 
           p Cada cambio que realiza un desarrollador (sea una resolución de un <i>bug</i>, la creación de una nueva funcionalidad, etc.), se comprueba compilando el código fuente y obteniendo un ejecutable (llamado build). Si es validado, será incorporado al código fuente y desplegado.
       .col-lg-5
-        img(src='@/assets/curso/temas/tema1/tema1-img-02.svg', alt='Texto que describa la imagen')(data-aos="fade-left")
+        img(src='@/assets/curso/temas/tema1/tema1-img-02.svg', alt='')(data-aos="fade-left")
 
     p Teniendo claro el concepto anterior, conozcamos algunas herramientas de despliegue:
 
@@ -31,7 +31,7 @@
             ImagenInfografica.color-primario
               template(v-slot:imagen)
                 figure
-                  img(src='@/assets/curso/temas/tema1/tema1-img-04.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/tema1/tema1-img-04.png', alt='')
 
               .tarjeta.color-acento-contenido.p-3(x="7.5%" y="68%" numero="+")
                 p Es una herramienta para realizar los procesos de integración continua, en proyectos de desarrollo de <i>software;</i> adicional a esto, permite realizar pruebas para garantizar el correcto funcionamiento del aplicativo. Funciona como un servidor centralizado que provee los servicios de alojamiento de código fuente y permite que varios usuarios puedan trabajar en él, de manera simultánea, garantizando que pueda ser utilizado por equipos de desarrollo, en todo el mundo. Con Jenkins, las organizaciones aceleran el proceso de desarrollo y entrega de <i>software</i> a través de la automatización. Mediante sus centenares de <i>plugins</i>, se puede implementar en diferentes etapas del ciclo de vida del desarrollo, como la compilación, la documentación, el testeo o el despliegue.
@@ -105,7 +105,7 @@
     .row.justify-content-center.mb-4  
       .col-lg-6.col-md-12.my-3
         .bloque-texto-a__texto.p-4.mb-3.fnd-1.h-100
-          p.mb-0.text-white Continuemos hablando un poco más sobre GitLab. La ventaja principal es que facilita notablemente el desarrollo de <i>software</i> ágil entre varios equipos. De esta manera, varios desarrolladores pueden trabajar simultáneamente en un proyecto y editar, por ejemplo, diferentes funciones de forma paralela. La protocolización continua de todos los procesos, garantiza que no se pierda ninguna modificación del código, ni que se sobreescriba de forma no intencionada. También es posible deshacer rápidamente los cambios ya aplicados, en esta nueva tendencia del agilismo, donde las metodologías de desarrollo ágil como Scrum, Kanban y XP, permiten la integración del usuario en los procesos de desarrollo del producto de <i>software</i>. Así se garantiza que el proceso de integración se realice de manera mucho más detallada y con el cliente, teniendo en cuenta que es el protagonista en el proceso de construcción del producto.
+          p.mb-0.text-white Continuemos hablando un poco más sobre GitLab. La ventaja principal es que facilita notablemente el desarrollo de <i>software</i> ágil entre varios equipos. De esta manera, varios desarrolladores pueden trabajar simultáneamente en un proyecto y editar, por ejemplo, diferentes funciones de forma paralela. La protocolización continua de todos los procesos, garantiza que no se pierda ninguna modificación del código, ni que se sobrescriba de forma no intencionada. También es posible deshacer rápidamente los cambios ya aplicados, en esta nueva tendencia del agilismo, donde las metodologías de desarrollo ágil como Scrum, Kanban y XP, permiten la integración del usuario en los procesos de desarrollo del producto de <i>software</i>. Así se garantiza que el proceso de integración se realice de manera mucho más detallada y con el cliente, teniendo en cuenta que es el protagonista en el proceso de construcción del producto.
                   
       .col-lg-6.col-md-12.my-3
         .bg1.p-4.h-100
@@ -147,14 +147,14 @@
             .tarjeta--boton.color-secundario1.p-4
               .row.justify-content-center.mb-3
                 .col-7
-                  img(src='@/assets/curso/temas/tema1/tema1-img-06.png', alt='Texto que describa la imagen').posicion-avatar
+                  img(src='@/assets/curso/temas/tema1/tema1-img-06.png', alt='').posicion-avatar
               p.text-center.posicion-txt-tar <b> GitLab CE: Community-Edition< (gratuita).</b>
 
           .col-sm-6.col-lg-4.mb-4.mb-lg-0.margin-top-tar
             .tarjeta--boton.color-secundario1.p-4
               .row.justify-content-center.mb-3
                 .col-7
-                  img(src='@/assets/curso/temas/tema1/tema1-img-07.png', alt='Texto que describa la imagen').posicion-avatar   
+                  img(src='@/assets/curso/temas/tema1/tema1-img-07.png', alt='').posicion-avatar   
               p.text-center.posicion-txt-tar <b> GitLab EE: Enterprise-Edition (de pago).</b>
 
     .row.justify-content-center.align-items-center.mt-4

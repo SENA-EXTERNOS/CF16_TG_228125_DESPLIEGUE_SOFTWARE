@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Despliegue de <i>software</i>',
     descripcionCurso:
       'Este componente formativo está diseñado para brindar los conceptos y conocimientos orientados a la implementación del <i>software</i>, donde conocerá todos los pasos y herramientas a tener en cuenta para realizar este proceso de manera correcta.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -96,7 +96,7 @@ export default {
     {
       tema: 'Herramientas de despliegue',
       referencia:
-        'Païola, P. (2021). <i>Microsoft Azure : Gestione su Sistema de Información en la Nube.</i>',
+        'Dauzon, Samuel. Git : Controle La Gestión De Sus Versiones (conceptos, Utilización Y Casos Prácticos). 2ª Edición. ed. Barcelona: Ediciones ENI, 2022. Recursos Informáticos. Web.',
       tipo: 'Libro',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_biblioteca_eniEPT3GIT ',

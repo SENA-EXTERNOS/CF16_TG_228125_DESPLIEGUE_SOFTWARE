@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://sena-externos.github.io/CF16_TG_228125_DESPLIEGUE_SOFTWARE/](https://sena-externos.github.io/CF16_TG_228125_DESPLIEGUE_SOFTWARE)
 
 #
 
